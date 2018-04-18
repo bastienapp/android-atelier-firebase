@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fr.wildcodeschool.atelierfirebase.MainActivity">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/score"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/b_add_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_score" />
+
+    <ListView
+        android:id="@+id/lv_scores"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_score" />
+
+    <Button
+        android:id="@+id/b_best_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/best_score" />
+
+</LinearLayout>

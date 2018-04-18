@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AtelierFirebase</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="score">Score</string>
+    <string name="add_score">Add score</string>
+    <string name="error_fill_form">Please fill the form</string>
+    <string name="best_score">Best score</string>
+</resources>
